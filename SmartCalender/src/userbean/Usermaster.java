@@ -6,7 +6,8 @@ public class Usermaster
 	private String Password = null;
 	private String name = null;
 	private String Emailid = null;
-	private String adress = null;
+	private String ContactNo = null;
+	
 
 	
 	public void setUsername(String username)
@@ -25,11 +26,13 @@ public class Usermaster
 	{
 		return name;
 	}
-	public String getAdress() {
-		return adress;
+	
+	
+	public String getContactNo() {
+		return ContactNo;
 	}
-	public void setAdress(String adress) {
-		this.adress = adress;
+	public void setContactNo(String contactNo) {
+		ContactNo = contactNo;
 	}
 	public void setName(String name) 
 	{
