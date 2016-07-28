@@ -1,6 +1,6 @@
 package userbean;
 
-public class Useralert 
+public class UserAlert 
 {
 	private String username = null; 
 	private String alertdate = null;
