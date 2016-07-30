@@ -22,7 +22,7 @@ public class Admin_login extends HttpServlet
 		protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
 		{
 			
-			String dbType = "sql" ;
+			String dbType = "oracl" ;
 
 			Admin user2 = new Admin();
 		    user2.setAdminName(request.getParameter("adminName"));

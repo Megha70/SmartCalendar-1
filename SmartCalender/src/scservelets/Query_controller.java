@@ -21,7 +21,7 @@ public class Query_controller extends HttpServlet
 	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
 	{
-		String dbtype = "sql";
+		String dbtype = "Oracle";
 		Query que1 = new Query();
 		que1.setName(request.getParameter("name"));
 		que1.setEmailaddress(request.getParameter("emailaddress"));
