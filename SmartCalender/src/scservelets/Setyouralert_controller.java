@@ -21,7 +21,7 @@ public class Setyouralert_controller extends HttpServlet
 	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
 	{
-		String dbtype = "sql";
+		String dbtype = "oracle";
 		Useralert user1 = new Useralert();
 		user1.setUsername(request.getParameter("username"));
 		user1.setAlertdate(request.getParameter("setDate"));
