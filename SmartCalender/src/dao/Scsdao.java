@@ -21,7 +21,7 @@ abstract public class Scsdao
 		} 
 		else 
 		{
-			if (dbType.equals("sql"))
+			if (dbType.equals("mysql"))
 				Dao = new Scdao();
 		}
 		return Dao;
