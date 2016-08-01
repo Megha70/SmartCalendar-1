@@ -24,7 +24,7 @@ public class Query_controller extends HttpServlet
 		String dbtype = "Oracle";
 		Query que1 = new Query();
 		que1.setName(request.getParameter("name"));
-		que1.setEmailaddress(request.getParameter("emailaddress"));
+		que1.setEmailaddress(request.getParameter("emailid"));
 		que1.setYourquery(request.getParameter("yourquery"));
 		
 		
