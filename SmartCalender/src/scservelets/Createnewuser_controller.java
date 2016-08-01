@@ -45,7 +45,7 @@ public class Createnewuser_controller extends HttpServlet
 		if(status == 0)
 		{
 			fwdPath = "error.jsp" ;
-			System.out.println("you entered wrong information");
+			System.out.println("Wrong crenditials");
 			msg="Invalid Login";
 			
 		}
