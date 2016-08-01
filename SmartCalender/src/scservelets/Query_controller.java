@@ -36,7 +36,7 @@ public class Query_controller extends HttpServlet
 		{
 			fwdPath = "login.jsp" ;
 			System.out.println("Validation Failed in ");
-			msg="Invalid Login";
+			msg="Login failed";
 			
 		}
 		else
