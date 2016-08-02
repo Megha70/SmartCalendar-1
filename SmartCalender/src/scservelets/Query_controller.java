@@ -21,10 +21,11 @@ public class Query_controller extends HttpServlet
 	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
 	{
+		//errror message process 
 		String dbtype = "Oracle";
 		Query que1 = new Query();
 		que1.setName(request.getParameter("name"));
-		que1.setEmailaddress(request.getParameter("emailid"));
+		que1.setEmailaddress(request.getParameter("emailaddress"));
 		que1.setYourquery(request.getParameter("yourquery"));
 		
 		
@@ -36,7 +37,7 @@ public class Query_controller extends HttpServlet
 		{
 			fwdPath = "login.jsp" ;
 			System.out.println("Validation Failed in ");
-			msg="Login failed";
+			msg="Invalid Login";
 			
 		}
 		else
