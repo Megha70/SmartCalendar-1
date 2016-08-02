@@ -46,7 +46,7 @@ public class Query_controller extends HttpServlet
 			msg = "Welcome to Home page" ;
 		}
 		
-		request.setAttribute("msg", msg);
+		request.setAttribute("message", msg);
 		RequestDispatcher rd = request.getRequestDispatcher(fwdPath);
 		rd.forward(request, response);
 }
